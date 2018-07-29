@@ -1,0 +1,26 @@
+###########################################################################################
+* This documents defines how to plug log4j into your code.How the user defines            *
+* message can be display into the console view as well as store into some file            *
+*                                                                                         *
+* 1. First download the apache log4j jar http://logging.apache.org/log4j/1.2/download.html*
+* 2. Add the .jar file into your project using configure build path                       *
+* 3. Create one log4j configuration file                                                  *
+* 4. Initialize log4j with the configuration.                                             *
+* 5. Create a logger                                                                      *
+* 6. Put logging statements into your code.                                               *
+*                                                                                         *
+* *****************************************************************************************
+*                                                                                         *
+*  Date    : July 29, 2018                                                                *
+*  Version : 1.0.0                                                                        *
+*  @author : RAMEN GUCHHAIT                                                               *
+###########################################################################################
+
+
+output : 
+DEBUG   2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a debug log message 
+INFO    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a information log message 2
+WARN    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a warning log message 3
+FATAL   2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - This is the fatal message
+INFO    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - This is my first log4j's statement
+0 [main] INFO com.log4j.demo.Log4jMessageDemo  - This is my first log4j's statement

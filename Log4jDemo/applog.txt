@@ -1,0 +1,5 @@
+DEBUG   2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a debug log message 
+INFO    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a information log message 2
+WARN    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - this is a warning log message 3
+FATAL   2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - This is the fatal message
+INFO    2018-07-29 14:26:19,460 [main] com.log4j.demo.Log4jMessageDemo  - This is my first log4j's statement
